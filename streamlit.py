@@ -2,7 +2,9 @@ import streamlit as st
 import requests
 
 st.title("Football Player Prediction")
-
+st.title("Cluster distribution")
+st.image("kmeanspho1.png")
+st.image("kmeansph2.png")
 # Collect user input
 age = st.number_input("Age", min_value=0)
 appearances = st.number_input("Appearances", min_value=0)
